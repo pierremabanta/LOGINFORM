@@ -1,0 +1,49 @@
+form {
+    margin: 0 auto; 
+width:250px;
+background-color: white;
+padding: 30px;
+margin-top: 90px;
+border-radius: 10px;
+}
+body {
+    font-family:Arial;
+    background-image: radial-gradient(white 1%, #2c6fbb);
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-attachment: fixed;
+}
+button {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+button:hover {background-color: blue}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+  
+  button:hover span {
+    padding-right: 25px;
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
